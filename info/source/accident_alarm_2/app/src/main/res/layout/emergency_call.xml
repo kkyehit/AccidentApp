@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.accident_alarm.MainActivity"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Call_text"
+        android:text="선택해 주세요"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:id="@+id/Call_cancel"
+        android:layout_below="@+id/Check_text"
+        android:layout_toRightOf="@+id/Check_ok"
+        android:background="#ffffff"
+        android:textColor="#ff0000"/>
+</RelativeLayout>

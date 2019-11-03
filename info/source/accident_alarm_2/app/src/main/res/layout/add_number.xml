@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.accident_alarm.MainActivity"
+    android:background="#ffffff">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_number_edittext"
+        android:inputType="number"
+        android:ems="10"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:id="@+id/add_number_ok"
+        android:layout_below="@id/add_number_edittext"
+        android:background="#ffffff"
+        android:textColor="#00ff00"/>
+</RelativeLayout>
